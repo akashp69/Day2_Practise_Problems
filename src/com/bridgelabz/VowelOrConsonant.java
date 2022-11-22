@@ -15,6 +15,7 @@ public class VowelOrConsonant {
                 System.out.println("a is Vowel");
                 break;
             case 'e':
+
                 System.out.println("e is Vowel");
                 break;
             case 'i':
