@@ -2,18 +2,19 @@ package com.bridgelabz;
 
 public class ReverseNumber {
     static void checkReverse(){
-        int n = 143,R=0;
+        int number = 143,reverse=0;
         System.out.println(n);
         while (n>0){
             int remainder=n%10;
-            R=R*10+remainder;
-            n=n/10;
+            reverse =reverse*10+remainder;
+            number=number/10;
         }
-        System.out.println(R);
+        System.out.println(reverse);
 
     }
 
     public static void main(String[] args) {
+
         System.out.println("Displaying Reverse Number");
         checkReverse();
     }
