@@ -2,13 +2,13 @@ package com.bridgelabz;
 
 public class ReverseNumberFor {
     public static void main(String[] args) {
-        int num = 451, r = 0;
-        for(;num != 0;)
+        int number = 451, reverse = 0;
+        for(;number != 0;)
         {
-            int remainder = num % 10;
-            r = r * 10 + remainder;
-            num=num/10;
+            int remainder = number % 10;
+            reverse = reverse * 10 + remainder;
+            number=number/10;
         }
-        System.out.println("The reverse of the given number is: " + r);
+        System.out.println("The reverse of the given number is: " + reverse);
     }
 }
