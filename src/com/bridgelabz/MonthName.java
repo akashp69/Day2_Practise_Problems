@@ -6,10 +6,10 @@ public class MonthName {
     public static void main(String[] args) {
         System.out.println("Enter a Number");
 
-        int n ;
-        Scanner sc = new Scanner(System.in);
-        n= sc.nextInt();
-        int month=n;
+        int number ;
+        Scanner sccaner = new Scanner(System.in);
+        number= sc.nextInt();
+        int month=number;
 
         switch (month) {
             case 1:
