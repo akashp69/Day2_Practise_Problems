@@ -9,7 +9,6 @@ public class SingleDigitInWord {
         Scanner sc = new Scanner(System.in);
         n =sc.nextInt();
 
-
         if(n<10){
             if(n==1)
                 System.out.println("ONE");
