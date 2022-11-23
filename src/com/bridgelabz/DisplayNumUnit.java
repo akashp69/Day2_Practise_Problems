@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class DisplayNumUnit {
 
     static void checkUnit() {
-        int n;
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        if (n >=  1 && n<1001) {
-            if (n == 1)
+        int number;
+        Scanner scanner = new Scanner(System.in);
+        number = scanner.nextInt();
+        if (number >=  1 && number<1001) {
+            if (number == 1)
                 System.out.println("ONE");
-            if (n == 10)
+            if (number == 10)
                 System.out.println("TEN");
-            if (n == 100)
+            if (number == 100)
                 System.out.println("HUNDREAD");
-            if (n == 1000)
+            if (number == 1000)
                 System.out.println("THOUSAND");
 
         }
