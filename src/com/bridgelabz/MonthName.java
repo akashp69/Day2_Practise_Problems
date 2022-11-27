@@ -3,13 +3,19 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class MonthName {
+    /**
+    *This Method Created For Print the Months Name 
+    */
     public static void main(String[] args) {
         System.out.println("Enter a Number");
 
         int number ;
-        Scanner sccaner = new Scanner(System.in);
-        number= sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        number= scanner.nextInt();
         int month=number;
+    /**
+    *Using switch Case For Print the Month Name 
+    */
 
         switch (month) {
             case 1:
