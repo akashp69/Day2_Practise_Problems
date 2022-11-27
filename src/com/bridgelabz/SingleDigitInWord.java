@@ -3,11 +3,17 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class SingleDigitInWord {
+    /**
+    *This Method Created For Print The Single Number In Word 
+    */
 
     static void checkWord(){
         int n;
-        Scanner sc = new Scanner(System.in);
-        n =sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        n =scanner.nextInt();
+    /**
+    *Using if-else-if for write single digit number in word 
+    */
 
         if(n<10){
             if(n==1)
