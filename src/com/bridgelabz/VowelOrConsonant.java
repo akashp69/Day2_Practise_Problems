@@ -3,12 +3,18 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class VowelOrConsonant {
+    /**
+    *This Method Created For Checking The Letter Is Vowel Or Consonant
+    */
     public static void main(String[] args) {
         System.out.println("Enter a letter");
         char c;
-        Scanner sc = new Scanner(System.in);
-        c=sc.next().charAt(0);
+        Scanner scanner = new Scanner(System.in);
+        c=scanner.next().charAt(0);
         char ch=c;
+    /**
+    *Using Switch Case For campair Character is vowel or consonant 
+    */
 
         switch (ch) {
             case 'a':
